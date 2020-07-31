@@ -1,0 +1,170 @@
+/* Couleurs:
+   #E6D7D1 Crème
+   #3F3222 Chocolat Noir
+   #6B4738 Café Foncé
+   #C97C58 Caramel
+   #8D5B49 Chocolat au Lait
+   */
+
+
+body{
+	margin: 0; /* Colle les bords */
+
+	background-image: url("images/fondAccueil.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: 25% 100%;
+	background-color: #3F3222;
+
+	font-family: serif;
+}
+
+
+
+
+h1, h2, h3{
+	/* Colle les div */
+	margin: 0;
+	padding-top: 2em;
+	padding-bottom: 1em;
+
+	/* Mise en forme du texte */
+	text-align: center;
+	font-family: 'Pacifico', cursive;
+	letter-spacing: 0.2em;
+	word-spacing: 0.5em;
+}
+
+ul{
+	text-align: center;
+	padding: 0;
+}
+
+li{
+	list-style: none;
+
+	width: 30%;
+	min-width: 400px;
+	display: inline-block;
+
+
+
+	margin-left: 1%;
+	margin-right: 1%;
+
+	margin-bottom: 3em;
+
+	background-color: rgba(63, 50, 34, 0.8);
+}
+
+
+a{
+	text-decoration: none;
+	font-family: 'Pacifico', cursive;
+	letter-spacing: 0.2em;
+	word-spacing: 0.5em;
+
+	display: block;
+
+	width: 100%;
+	padding-top: 1em;
+	padding-bottom: 1em;
+
+	text-align: center;
+	vertical-align: middle;
+
+	color: #C97C58;
+}
+
+a:hover{
+	color: #E6D7D1;
+}
+
+
+/* Les trois différentes parties du site */
+.view100{
+	min-height: 100vh; 
+}
+
+#accueil{
+	color: #E6D7D1;
+	text-align: center;
+	box-shadow: inset 0px -10px 40px black;
+}
+
+h1{
+	font-size: 3em;
+	text-shadow: 2px 2px 0px #3F3222;
+}
+
+#menu{
+	background-color: #E6D7D1;
+	color: #3F3222;
+
+	/* Pour avoir les cafés et thés côte à côte*/
+	text-align: center;
+}
+
+
+
+h3{
+	width: 100%;
+	background-color: #C97C58;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+article{
+	width: 30%;
+	min-width: 400px;
+	display: inline-block;
+
+	margin-left: 1%;
+	margin-right: 1%;
+
+	margin-bottom: 3em;
+}
+
+table{
+	border-collapse: collapse;
+	width: 100%;/*Veriffier la propretée*/
+}
+
+td{
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+.alignLeft{
+	text-align: left;
+}
+
+.alignRight{
+	text-align: right;
+}
+
+.paddingLeft10{
+	padding-left: 10%;
+}
+
+.paddingRight10{
+	padding-right: 10%;
+}
+
+caption{
+	display: none;/*Aide au référencement ?*/
+}
+
+#adresse{
+	background-color: #6B4738;
+	color: #E6D7D1;
+
+	box-shadow: inset 0px 10px 40px black;
+
+	padding-bottom: 2em;
+}
+
+#map{
+	width: 100%;
+}
